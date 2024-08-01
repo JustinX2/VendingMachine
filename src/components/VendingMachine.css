@@ -1,0 +1,28 @@
+.vending-machine {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .vending-machine h1 {
+    text-align: center;
+    color: #4a4a4a;
+  }
+  
+  .vending-machine ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .vending-machine li {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .vending-machine li:hover {
+    background-color: #d0d0d0;
+  }
